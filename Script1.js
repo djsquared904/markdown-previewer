@@ -1,1 +1,9 @@
-// JavaScript source code test
+class App extends React.Component {
+    render() {
+        return (
+            <div>Hello</div>
+        );
+    }
+}
+
+ReactDOM.render(<App/>, document.getElementByID('app'))
